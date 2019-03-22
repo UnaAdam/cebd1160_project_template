@@ -1,7 +1,7 @@
 # cebd1160_project_template
 Instructions and template for final projects.
 
-| Name | Date |
+| Dragica Adamovic | Date |
 |:-------|:---------------|
 |Your name here | Completion date|
 
