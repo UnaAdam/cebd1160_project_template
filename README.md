@@ -86,8 +86,16 @@ Find below the pseudocode for analysis of the Boston dataset.
    6.1 split data to train and test data
    6.2 print the shape of data
    
-7. 
-   
+7. Create a regression model 
+   7.1 import the libraries sklearn import linear regression model and store it in a variable
+   7.2 fit the curve, in our case line, thorugh the dataset lm.fit(X_train, Y_train)
+   7.3 predict, lm.predict(X_test) and store it in a variable vall Y_pred
+   7.4 print the graphs with data, predicted values and actual values
+
+8. Calculate the mean square error/average of the square of errors
+   8.1 import the relevant libraries, if not yet imported
+   8.2 find the mse of predicited and actual values and store it in a variables
+   8.3 print the results 
 
 ### Results
 
@@ -95,7 +103,7 @@ Brief (2 paragraph) description about your results. Include:
 
 - At least 1 figure
 - At least 1 "value" that summarizes either your data or the "performance" of your method
-- A short explanation of both of the above
+- A short explanation of both of the 
 
 ### Discussion
 Brief (no more than 1-2 paragraph) description about what you did. Include:
