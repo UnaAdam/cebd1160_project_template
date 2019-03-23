@@ -103,10 +103,9 @@ Find below the pseudocode for analysis of the Boston dataset.
 
 Brief (2 paragraph) description about your results. Include:
 ![heatmap correlation matrix](output.png)
+![Correlation graph](Pairplot.png)
 
-- At least 1 figure
-- At least 1 "value" that summarizes either your data or the "performance" of your method
-- A short explanation of both of the 
+![Prediction](Prediction.png)
 
 ### Discussion
 
