@@ -102,7 +102,7 @@ Find below the pseudocode for analysis of the Boston dataset.
 ### Results
 
 Brief (2 paragraph) description about your results. Include:
-![heatmap correlation matrix]output.png
+![heatmap correlation matrix](output.png)
 
 - At least 1 figure
 - At least 1 "value" that summarizes either your data or the "performance" of your method
