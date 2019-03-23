@@ -34,9 +34,8 @@ pportunity (what data do we have)
 
 ### Introduction
 
-Brief (no more than 1-2 paragraph) description about the dataset. Can copy from elsewhere, but cite the source (i.e. at least link, and explicitly say if it's copied from elsewhere).
+Boston housing dataset was extensivly used to test an algorithams and for machine learning. It was originally published by Harrison, D. and Rubinfeld, D.L. (https://www.cs.toronto.edu/~delve/data/boston/bostonDetail.html). It contains 13 attributes of 506 cases. Therefore, this dataset is relativly small in size. The attributes given are listed below:
 
-There are 14 attributes in each case of the dataset. They are:
 01. CRIM - per capita crime rate by town
 02. ZN - proportion of residential land zoned for lots over 25,000 sq.ft.
 03. INDUS - proportion of non-retail business acres per town.
@@ -53,10 +52,10 @@ There are 14 attributes in each case of the dataset. They are:
 14. MEDV - Median value of owner-occupied homes in $1000's
 (Source: https://www.cs.toronto.edu/~delve/data/boston/bostonDetail.html)
 
+The MEDV value or the price is our target variable and the rest, all other attributes, are feature variables, based on which we can potentially predict the value of the house. 
 
 
-
-### Methods
+### Method
 
 Brief (no more than 1-2 paragraph) description about how you decided to approach solving it. Include:
 
