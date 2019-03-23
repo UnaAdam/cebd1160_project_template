@@ -51,7 +51,7 @@ The MEDV value or the price is our target variable and the rest, all other attri
 
 ### Method
 
-Describe the method and why did you select this method. 
+Find below the pseudocode for analysis of the Boston dataset.
 
 1. First, we need to import the dataset, for instance, from sklearn
   1.1 import the data from sklearn with the command from sklearn.import load_boston
@@ -70,7 +70,24 @@ Describe the method and why did you select this method.
        2.5.5 thereafter, print the new table with columns head that are renamed, command print(bos.head())
        
 3. Next, we can performe the summary statistics
-   3.1 
+   3.1 print the summary statistics, print(bos.describe())
+   
+4. Explore the data with graphs and heat maps in order to see the relationship
+   4.1 import various libraries for printing different formats of images
+   4.2 print the correlation matrix with heatmap and save an image
+   4.3 print the matrix of hystograms and scaterplot of all data in a correlation matrix with the pairplote command and save an image
+      
+5. Split data to target value and predictor value 
+   5.1 split the data to the target value to predictor value
+       5.1.1 we will store in a X variable predictor value, command X = bos.drop['PRICE', axis = 1]
+       5.1.2 we will store in a Y variable target value, price, command Y = bos['PRICE']
+       
+6. Split data into train and test data
+   6.1 split data to train and test data
+   6.2 print the shape of data
+   
+7. 
+   
 
 ### Results
 
