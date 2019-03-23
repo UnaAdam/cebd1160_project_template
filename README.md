@@ -1,7 +1,7 @@
 # cebd1160_project_template
 Instructions and template for final projects.
 
-| Dragica Adamovic | Date |
+| Dragica Adamovic | 2019-03-22|
 |:-------|:---------------|
 |Your name here | Completion date|
 
@@ -19,7 +19,7 @@ Your repository should include the following:
 
 ## Research Question
 
-1 sentence description of your research question.
+The aim of this project is to predict the housing prices based on a hystorical, given, data and to quantify the relationship between the indicators. On the end, we want to establish how accurate is our statistical regression model. 
 
 ### Abstract
 
