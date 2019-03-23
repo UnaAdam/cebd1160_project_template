@@ -97,6 +97,8 @@ Find below the pseudocode for analysis of the Boston dataset.
    8.2 find the mse of predicited and actual values and store it in a variables
    8.3 print the results 
 
+(Source: https://medium.com/@haydar_ai/learning-data-science-day-9-linear-regression-on-boston-housing-dataset-cd62a80775ef)
+
 ### Results
 
 Brief (2 paragraph) description about your results. Include:
@@ -106,10 +108,8 @@ Brief (2 paragraph) description about your results. Include:
 - A short explanation of both of the 
 
 ### Discussion
-Brief (no more than 1-2 paragraph) description about what you did. Include:
 
-- interpretation of whether your method "solved" the problem
-- suggested next step that could make it better.
+With this analysis we have analyse data, and created the linear regression model that have alow us to predict the housing prices in a relation with feature that it has the high correlation. On the end, we have evaluated our model bu using the mean square error. Since, the mse is high we need ot test other regression models. Also, we have noticed when analysing the scatter plots in a correlation matrix some data have non-linear correlation. Potentialy, it would be interested to performe the analysis of non-linear models. 
 
 ### References
 All of the links
