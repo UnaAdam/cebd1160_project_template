@@ -105,7 +105,7 @@ First graph is showing correlation heat map that give us an idea which features 
 ![heatmap correlation matrix](output.png)
 ![Correlation graph](Pairplot.png)
 
-Results of the prediction two linear regression model is shown at two graphs below. 
+Results of the prediction of two linear regression model is shown at two graphs below. 
 ![Prediction](Prediction.png)
 
 ### Discussion
