@@ -101,10 +101,11 @@ Find below the pseudocode for analysis of the Boston dataset.
 
 ### Results
 
-Brief (2 paragraph) description about your results. Include:
+First graph is showing correlation heat map that give us an idea which features are highly correlated. It should be looked tougether with the image below that give us an idea of the nature of relationship between the data. As we can see, some data that are highly correlated would have a linear or non-linear correlation.
 ![heatmap correlation matrix](output.png)
 ![Correlation graph](Pairplot.png)
 
+Results of the prediction two linear regression model is shown at two graphs below. 
 ![Prediction](Prediction.png)
 
 ### Discussion
