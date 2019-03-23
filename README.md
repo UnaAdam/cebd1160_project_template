@@ -19,12 +19,15 @@ Your repository should include the following:
 
 ## Research Question
 
-The aim of this project is to predict the housing prices based on a hystorical, given, data and to quantify the relationship between the indicators. On the end, we want to establish how accurate is our statistical regression model. 
+The aim of this project is to predict the housing prices based on a hystorical, given, data and to quantify the relationship between the indicators. On the end, we want to test how accurate is our statistical regression model. 
 
 ### Abstract
 
-For the purpose of this study we have used the Boston housing dataset. This dataset contains the data about different 
-- opportunity (what data do we have)
+For the purpose of this study we have used the Boston housing dataset. This dataset contains the data of different housing around city of Boston. The main assumtpion of this parametric model is that the housing prices will be influenced by the same factor in past and in the future. For decades, parametric cost estimate was used in order to predict the 
+
+
+
+pportunity (what data do we have)
 - challenge (what is the "problem" we could solve with this dataset)
 - action (how will we try to solve this problem/answer this question)
 - resolution (what did we end up producing)
@@ -48,6 +51,8 @@ There are 14 attributes in each case of the dataset. They are:
 12. B - 1000(Bk - 0.63)^2 where Bk is the proportion of blacks by town
 13. LSTAT - % lower status of the population
 14. MEDV - Median value of owner-occupied homes in $1000's
+(Source: https://www.cs.toronto.edu/~delve/data/boston/bostonDetail.html)
+
 
 
 
@@ -57,6 +62,7 @@ Brief (no more than 1-2 paragraph) description about how you decided to approach
 
 - pseudocode for this method (either created by you or cited from somewhere else)
 - why you chose this method
+
 
 ### Results
 
