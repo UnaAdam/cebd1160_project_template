@@ -113,6 +113,6 @@ Results of the prediction of two linear regression model is shown at two graphs 
 With this analysis we have analyse data, and created the linear regression model that have alow us to predict the housing prices in a relation with feature that it has the high correlation. On the end, we have evaluated our model bu using the mean square error. Since, the mse is high we need ot test other regression models. Also, we have noticed when analysing the scatter plots in a correlation matrix some data have non-linear correlation. Potentialy, it would be interested to performe the analysis of non-linear models. 
 
 ### References
-All of the links
+References are given above in the text
 
 -------
