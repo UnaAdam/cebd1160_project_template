@@ -75,7 +75,7 @@ plt.subplot(2, 2, 1)
 
 regres = sns.regplot(Y_expected, Y_test_predict)
 plt.ylabel('Predicted Value')
-plt.title('Linear Regression .\nMSE =, R-Squared = '.format(lr_rmse,lr_r2))
+plt.title('Linear Regression = {}, R-Squared = {}'.format(lr_rmse,lr_r2))
 
 
 
