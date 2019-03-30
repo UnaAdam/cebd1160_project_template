@@ -65,12 +65,18 @@ Y_test_predict = lin_model.predict(X_test)
 Y_expected = Y_test
 
 lr_rmse = sqrt(mean_squared_error(Y_expected, Y_test_predict))
+lr_r2 = round(r2_score(Y_expected, Y_test_predict))
+print(lr_rmse)
+print(lr_r2)
+
 
 fullfigure = plt.figure(figsize=(20,10), dpi=300)
 plt.subplot(2, 2, 1)
 
 regres = sns.regplot(Y_expected, Y_test_predict)
 plt.ylabel('Predicted Value')
+plt.title('Linear Regression .\nMSE =, R-Squared = '.format(lr_rmse,lr_r2))
+
 
 
 # Fit the values in the model
@@ -82,9 +88,13 @@ expected_Y = Y_test
 
 # Model performance 
 BayRig_rmse = sqrt(mean_squared_error(expected_Y, predicted_Y))
+print(BayRig_rmse)
+
 
 plt.subplot(2,2,2)
 sns.regplot(expected_Y, predicted_Y, color = 'blue')
 
 fullfigure.savefig('Prediction.png')
+
+
 
