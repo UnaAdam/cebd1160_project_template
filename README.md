@@ -105,7 +105,8 @@ First graph is showing correlation heat map that give us an idea which features 
 ![heatmap correlation matrix](output.png)
 ![Correlation graph](Pairplot.png)
 
-Results of the prediction of two linear regression model is shown at two graphs below. First model on the left is a Linear Regression model. 
+Results of the prediction of two linear regression model is shown at two graphs below. First model on the left is a Linear Regression model and on the right is a Bayesian Ridge model. As we can see, they have almost indentical grpahs. Also, the values of RMS error are very close. 
+
 ![Prediction](Prediction.png)
 
 ### Discussion
