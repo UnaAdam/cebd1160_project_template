@@ -78,7 +78,6 @@ plt.ylabel('Predicted Value')
 plt.title('Linear Regression = {}, R-Squared = {}'.format(lr_rmse,lr_r2))
 
 
-
 # Fit the values in the model
 BayRig_reg = BayesianRidge()
 BayRig_reg.fit(X_train, Y_train)
@@ -88,11 +87,14 @@ expected_Y = Y_test
 
 # Model performance 
 BayRig_rmse = sqrt(mean_squared_error(expected_Y, predicted_Y))
+BayRig_r2 = round(r2_score(expected_Y, predicted_Y)
 print(BayRig_rmse)
-
+print(BayRig_r2)
 
 plt.subplot(2,2,2)
 sns.regplot(expected_Y, predicted_Y, color = 'blue')
+plt.title('BayesianRidge = {}, R-Squared = {}.format(BayRig_rmse,BayRig_r2)
+
 
 fullfigure.savefig('Prediction.png')
 
